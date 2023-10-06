@@ -1,0 +1,60 @@
+:root {
+    --font1:font('Lilita One', cursive);
+    --font2:font('Pacifico', cursive);
+    --font3:font('Roboto', sans-serif);
+    --font4:font('Young Serif', serif);
+}
+
+body {
+    background-color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lilita One', cursive; 
+    color: aqua;
+}
+
+p {
+    text-align: center;
+    font-family: 'Young Serif', sans-serif;
+    color: aqua;
+}
+
+label {
+    color: aqua;
+}
+
+form {
+  border: 1px solid whitesmoke;
+  border-radius: 0.3em;
+  padding: 0.3em;
+}
+
+form input, form button {
+  font-size: 1.2em ;
+  border-radius: 0.2em;
+  border: none;
+  padding: 0.2em;
+}
+
+form button {
+  cursor: pointer;
+  background: none;
+  color: whitesmoke;
+}
+
+form button:hover {
+  width: 200px;
+  background: whitesmoke;
+  color: aqua;
+  
+}
+
+.container {
+  width: 500px;
+  background-size: 200px;
+}
+
+
+
